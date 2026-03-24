@@ -1,0 +1,16 @@
+# PRESENCE BOT — LOG ROTATION CONFIG
+# Place this file at: /etc/logrotate.d/presence
+# Adjust the log path to match your actual deployment path.
+#
+# Install: sudo cp logrotate.conf /etc/logrotate.d/presence
+# Test:    sudo logrotate -d /etc/logrotate.d/presence
+
+/path/to/presence/logs/presence.log {
+    daily
+    rotate 14
+    compress
+    delaycompress
+    missingok
+    notifempty
+    copytruncate
+}

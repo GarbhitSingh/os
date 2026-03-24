@@ -1,0 +1,77 @@
+[
+  {
+    "level": 2,
+    "type": "log",
+    "id": "LOG-FIRST-SIGNAL",
+    "message": "Signal detected. Source unconfirmed. Monitoring continues.",
+    "note": "First system log. Fires at level 2 to hook early. No case yet."
+  },
+
+  {
+    "level": 3,
+    "type": "log",
+    "id": "LOG-FILES-LOCATED",
+    "message": "Case files located. Initial access granted. Clearance level recorded.",
+    "note": "Fires when first case parts unlock. Announces that investigation content exists."
+  },
+
+  {
+    "level": 5,
+    "type": "anomaly_tier_unlock",
+    "id": "ANOMALY-TIER-1",
+    "message": null,
+    "note": "Unlocks tier 1 anomaly events in the event engine. No posted message — the events themselves will start appearing."
+  },
+
+  {
+    "level": 6,
+    "type": "log",
+    "id": "LOG-DEEPER-SIGNAL",
+    "message": "Cross-reference complete. Additional records identified. Some files remain restricted.",
+    "note": "Bridges tier 1 case conclusions to anomaly cases beginning."
+  },
+
+  {
+    "level": 7,
+    "type": "anomaly_tier_unlock",
+    "id": "ANOMALY-TIER-2",
+    "message": null,
+    "note": "Unlocks tier 2 anomaly events. Heavier content. Night events become more active."
+  },
+
+  {
+    "level": 7,
+    "type": "log",
+    "id": "LOG-RESTRICTED-DETECTED",
+    "message": "Restricted file detected in archive. Access conditions not yet met.",
+    "note": "Teaser that restricted cases exist. Shows before level 8 unlocks them."
+  },
+
+  {
+    "level": 9,
+    "type": "anomaly_tier_unlock",
+    "id": "ANOMALY-TIER-3",
+    "message": null,
+    "note": "Unlocks rarest anomaly events. Classified tier approaching."
+  },
+
+  {
+    "level": 10,
+    "type": "log",
+    "id": "LOG-CLASSIFIED-LOCATED",
+    "message": "Classified record located. File integrity partial. Some sections permanently sealed.",
+    "note": "Announces classified case (Bhangarh) is now accessible — with caveats."
+  },
+
+  {
+    "level": 10,
+    "type": "hidden",
+    "id": "HIDDEN-BHANGARH-NOTE",
+    "message": "Three pages of this record were separated before filing. They have not been recovered.",
+    "extra_conditions": [
+      "anomaly_event_fired_once",
+      "night_event_fired_once"
+    ],
+    "note": "Only fires if group has also triggered at least one anomaly AND one night event. Pure level gate is not enough."
+  }
+]

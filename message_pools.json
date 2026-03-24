@@ -1,0 +1,157 @@
+{
+  "log_activity": [
+    "Activity recorded. Baseline updated.",
+    "Signal strength nominal. Observation continues.",
+    "Pattern logged. No anomalies at this time.",
+    "Group activity within normal parameters. Recording.",
+    "Presence monitoring active. Data collected.",
+    "Transmission received. Archive updated.",
+    "Activity spike noted. Cause: standard engagement.",
+    "Observation window open. No interruptions.",
+    "Routine log entry. All channels functional.",
+    "Data stream stable. Monitoring continues."
+  ],
+
+  "log_signal": [
+    "Signal detected on secondary channel. Origin unconfirmed.",
+    "Frequency shift noted in active window. Logging.",
+    "Cross-reference initiated. Source data incomplete.",
+    "Transmission fragment received. Unable to decode fully.",
+    "Low-bandwidth signal observed. Duration: brief.",
+    "Background noise elevated. Possible interference.",
+    "Anomalous frequency logged. No repeat detected.",
+    "Signal pattern does not match known sources.",
+    "Secondary observation window flagged. Review pending.",
+    "Partial data recovered from corrupted transmission."
+  ],
+
+  "log_case": [
+    "Case reference accessed. File integrity intact.",
+    "Investigation record cross-referenced. Entries consistent.",
+    "Archive query processed. Related files identified.",
+    "Case file updated. New observation logged.",
+    "Historical record located. Context noted.",
+    "Prior investigation data retrieved. Comparison initiated.",
+    "Source document verified. Timestamp confirmed.",
+    "Record classification reviewed. Status unchanged.",
+    "Adjacent case file flagged for review.",
+    "Documentation cross-check complete. One discrepancy noted."
+  ],
+
+  "spike_activity": [
+    "Unusual activity concentration detected. Recording.",
+    "Engagement spike logged. Duration: elevated.",
+    "High-density communication window observed.",
+    "Activity threshold exceeded. Data burst captured.",
+    "Concentrated transmission period noted. Archive updated.",
+    "Signal density above baseline. Observation intensified.",
+    "Multiple simultaneous transmissions logged.",
+    "Communication cluster recorded. Pattern analysis pending.",
+    "Activity surge noted. No prior correlation found.",
+    "High engagement period captured. Duration above average."
+  ],
+
+  "silence_tier1": [
+    "Inactivity detected. Monitoring continues in passive mode.",
+    "Transmission gap recorded. Duration exceeds baseline.",
+    "Signal absent. Presence observation maintained.",
+    "No activity logged in extended window. Waiting.",
+    "Silence period noted. Archive continues recording.",
+    "Gap in transmission data. Origin unknown.",
+    "Communication suspended. Observation maintained.",
+    "Extended quiet period logged. No external cause identified.",
+    "Absence of signal noted. Duration: significant.",
+    "No data received. Monitoring posture unchanged."
+  ],
+
+  "silence_tier2": [
+    "Prolonged silence. Something is different about this one.",
+    "Extended inactivity. The record does not indicate why.",
+    "Transmission has been absent for an unusual period. Noted.",
+    "Silence continues. This duration has occurred before. It did not end normally.",
+    "No signal. The last communication was unremarkable. This absence is not.",
+    "Extended gap. Archive has flagged this window for review.",
+    "Communication stopped. The pattern before it was ordinary. The stop was not.",
+    "Silence duration: atypical. No environmental explanation logged.",
+    "This is the longest uninterrupted silence on record for this channel.",
+    "Absence confirmed. The previous session ended without incident. This one has not begun."
+  ],
+
+  "night_tier1": [
+    "Late-hour observation active. Signal clarity reduced.",
+    "Night window open. Passive monitoring only.",
+    "Low-light period logged. Background noise elevated.",
+    "After-hours observation in progress. Nothing unusual.",
+    "Night cycle noted. Archive continues.",
+    "Late transmission received. Origin: local.",
+    "Night observation window. Presence confirmed.",
+    "Reduced activity period. Monitoring maintained.",
+    "Quiet hour logged. No anomalies detected.",
+    "Late-hour signal present. Within normal parameters."
+  ],
+
+  "night_tier2": [
+    "Something is active in the late window. It has not identified itself.",
+    "Night transmission received. It was not sent by anyone who has spoken recently.",
+    "After-hours signal detected. The archive has no matching signature.",
+    "Late observation logged. The presence does not correspond to any active member.",
+    "Night window: something is here that should not be active at this hour.",
+    "Unidentified signal in late window. It is not the first time.",
+    "The hour is late. The transmission is clear. The sender is not.",
+    "Night cycle. Archive records an anomaly. It will not be the last.",
+    "After-hours presence confirmed. Observation continues.",
+    "Late signal. It arrived between entries. The gap between them is unexplained."
+  ],
+
+  "anomaly_tier1": [
+    "Something in this channel does not match the expected pattern.",
+    "A reading was logged that has no clear source.",
+    "One entry in the recent archive cannot be attributed.",
+    "Pattern deviation detected. No immediate explanation.",
+    "An inconsistency was noted in the observation record.",
+    "Unresolved anomaly logged. Review pending.",
+    "The last transmission contained something that should not have been there.",
+    "A signal was recorded that did not originate from this session.",
+    "Something changed in the data. It is not clear when.",
+    "An observation was made that the system cannot currently explain."
+  ],
+
+  "anomaly_tier2": [
+    "This is the third time this pattern has appeared. It has not been explained.",
+    "The anomaly in the previous log was not isolated.",
+    "Two separate observations cannot be reconciled with the same cause.",
+    "Something is returning. The interval between occurrences is not random.",
+    "The pattern does not match noise. It matches something.",
+    "What was logged here three sessions ago has appeared again.",
+    "Recurring anomaly confirmed. Origin: unknown. Frequency: increasing.",
+    "The archive contains six entries it cannot explain. This is the seventh.",
+    "Something in this channel has been consistent across multiple observation windows.",
+    "The observation record shows a pattern. The pattern is not a coincidence."
+  ],
+
+  "anomaly_tier3": [
+    "The investigation into this channel has reached its limit.",
+    "What began as a single unattributed entry is now a documented series.",
+    "The archive cannot explain what has been recorded here.",
+    "This observation has been reviewed. No conclusion was reached.",
+    "The record exists. The explanation does not.",
+    "Whatever is being detected here has been present since before this system noticed it.",
+    "The anomaly is not new. The documentation of it is.",
+    "This has been logged, reviewed, and flagged. The flag remains open.",
+    "No cause has been identified. The observations continue.",
+    "Something here was present before the first message was sent."
+  ],
+
+  "classified_tier1": [
+    "A file associated with this channel has been flagged for restricted review.",
+    "This observation has been escalated. The escalation record is not accessible here.",
+    "One entry in this archive has been sealed. The reason is not documented at this level.",
+    "This channel's activity pattern has triggered a review that will not be visible to participants.",
+    "An associated record exists at a clearance level above this one.",
+    "Something in the history of this channel has been noted at a level that cannot be described here.",
+    "The archive has identified a connection. The connection is restricted.",
+    "A prior investigation involving this channel has been sealed.",
+    "The clearance required to view the relevant record exceeds what is available.",
+    "This channel has been observed before. That record is not accessible."
+  ]
+}

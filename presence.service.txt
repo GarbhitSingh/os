@@ -1,0 +1,24 @@
+[Unit]
+Description=Presence Telegram Bot
+After=network.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=presence
+WorkingDirectory=/path/to/presence
+ExecStart=/usr/bin/python3 bot/main.py
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+# Environment — or use EnvironmentFile=/path/to/.env
+Environment=ENV=production
+
+# Safety limits
+MemoryMax=512M
+TasksMax=64
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,18 @@
+# PRESENCE BOT — DEPENDENCIES
+# Install: pip install -r requirements.txt
+
+# Telegram bot framework (async, v20+ required for asyncio model)
+python-telegram-bot==20.7
+
+# Async job scheduler — event engine, mute expiry, xp decay
+APScheduler==3.10.4
+
+# Environment variable loading (.env file)
+python-dotenv==1.0.0
+
+# HTML parsing — scraper only, not bot runtime
+beautifulsoup4==4.12.3
+requests==2.31.0
+
+# Dev/testing
+pytest==7.4.3

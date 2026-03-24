@@ -1,0 +1,126 @@
+{
+  "_note": "Each array entry: [text, weight]. Higher weight = more common. First entry is always the canonical voice.",
+
+  "ban": [
+    ["Subject removed.", 40],
+    ["Access terminated.", 30],
+    ["Presence no longer detected.", 20],
+    ["Removed from environment.", 10]
+  ],
+
+  "kick": [
+    ["Subject removed. Re-entry permitted.", 40],
+    ["Presence terminated. Channel remains open.", 30],
+    ["Removed. Access not permanently revoked.", 20],
+    ["Exit logged.", 10]
+  ],
+
+  "mute": [
+    ["Communication restricted.", 40],
+    ["Transmission suspended.", 30],
+    ["Output disabled.", 20],
+    ["Signal suppressed.", 10]
+  ],
+
+  "unmute": [
+    ["Restrictions lifted.", 50],
+    ["Communication restored.", 30],
+    ["Transmission resumed.", 20]
+  ],
+
+  "warn": [
+    ["Behavior recorded.", 40],
+    ["Observation logged.", 30],
+    ["Warning issued.", 20],
+    ["Incident noted.", 10]
+  ],
+
+  "unwarn": [
+    ["Record updated.", 50],
+    ["Warning removed.", 30],
+    ["Correction applied.", 20]
+  ],
+
+  "filter_added": [
+    ["Filter active.", 50],
+    ["Pattern registered.", 30],
+    ["Keyword logged.", 20]
+  ],
+
+  "filter_removed": [
+    ["Filter removed.", 50],
+    ["Pattern cleared.", 30],
+    ["Keyword deleted.", 20]
+  ],
+
+  "welcome_set": [
+    ["Welcome message saved.", 60],
+    ["Entry acknowledgment updated.", 40]
+  ],
+
+  "rules_set": [
+    ["Rules updated.", 60],
+    ["Directives stored.", 40]
+  ],
+
+  "error_no_reply": [
+    ["Reply to a message to target a user.", 70],
+    ["Target not specified. Reply to a message.", 30]
+  ],
+
+  "error_no_permission": [
+    ["Insufficient clearance.", 50],
+    ["Action not permitted.", 30],
+    ["Authorization required.", 20]
+  ],
+
+  "error_bot_not_admin": [
+    ["Action failed. Insufficient bot permissions.", 60],
+    ["Cannot execute. Admin rights required.", 40]
+  ],
+
+  "error_cannot_target_bot": [
+    ["Cannot target bots.", 70],
+    ["Target is a system process.", 30]
+  ],
+
+  "error_generic": [
+    ["Action failed.", 50],
+    ["Execution error. Logged.", 30],
+    ["Unable to complete.", 20]
+  ],
+
+  "no_filters": [
+    ["No active filters.", 70],
+    ["Filter list empty.", 30]
+  ],
+
+  "no_rules": [
+    ["No rules on record.", 70],
+    ["Rule set not configured.", 30]
+  ],
+
+  "no_restricted": [
+    ["No restricted records in current archive.", 70],
+    ["Restricted index empty.", 30]
+  ],
+
+  "auto_flood": [
+    ["Flood detected. Transmission suspended.", 60],
+    ["Message rate exceeded. Output disabled.", 40]
+  ],
+
+  "auto_repeat": [
+    ["Repeat pattern detected. Incident logged.", 60],
+    ["Duplicate transmission flagged.", 40]
+  ],
+
+  "case_not_found": [
+    ["No record found.", 60],
+    ["File not located in archive.", 40]
+  ],
+
+  "case_private_only": [
+    ["Case files are only accessible in group channels.", 100]
+  ]
+}
